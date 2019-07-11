@@ -1,0 +1,53 @@
+#backgroundImage {
+    z-index: 1;
+}
+
+#backgroundImage:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.65;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Abel, 'Lucida Sans', 'sans-serif';
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.title {
+    text-align: center;
+    font-size: 75px;
+    background: #034A0A;
+    background: -moz-linear-gradient(left, #034A0A 0%, #30630B 50%, #034A0A 100%);
+    background: -webkit-linear-gradient(left, #034A0A 0%, #30630B 50%, #034A0A 100%);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.propic {
+    height: 300px;
+    width: auto;
+    float: left;
+}
+
+.biobox {
+    background: #034A0A;
+    overflow: hidden;
+}
