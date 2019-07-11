@@ -5,3 +5,5 @@ The following repository holds all files & content relating to the deployment & 
 
 I am new to HTML & CSS. Thus, those who are just starting out in learning website development and webpage design may find my work useful in propoagating their own journey forward. Please feel free to use any of my code/files for your own needs as necessary.
 
+You can find my prettier, official website at: https://nathanh36.github.io/nehall_biostatistician/.
+
